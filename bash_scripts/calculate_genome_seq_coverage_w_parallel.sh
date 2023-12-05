@@ -1,4 +1,15 @@
 #!/bin/bash
+# This script will calculate genome coverage sequenced (e.g. 10X genome coverage) by counting the number
+# of bases sequenced (in .fq.gz files) and dividing that by the expected genome length. 
+# NOTE 1: this assumes your folder structure as follows:
+# (1) script in directory
+# (2) subfolders with fq.gz files in directory with preferred naming scheme
+# NOTE 2: this will not read fq.gz files within the parent directory.
+# NOTE 3: remember to change the genome length to your particular genome
+# NOTE 4: change your file extension as necessary (e.g. *.fq.gz, *.fastq.gz); I haven't tried it but I 
+# assume you could also alter line 26 to "cat *.fq" or "cat *.fastq" for uncompressed files
+# NOTE 5: this assumes you have parallel installed (e.g. "sudo apt-get install parallel" on Debian/Ubuntu 
+# or "brew install parallel" on macOS
 
 # Create the output CSV file
 echo "Sample,Total Bases,Genome Coverage" > sample_sequencing_coverage.csv
