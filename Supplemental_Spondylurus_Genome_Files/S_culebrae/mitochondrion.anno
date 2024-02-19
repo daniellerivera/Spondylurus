@@ -1,0 +1,45 @@
+# F rrnS V rrnL L2 ND1 I Q M ND2 W A N C Y COX1 S2 D COX2 K ATP8 ATP6 COX3 G ND3 R ND4L ND4 H S1 L1 ND5 ND6 E CYTB T P cr OH
+# F+ rrnS+ V+ rrnL+ L2+ ND1+ I+ Q- M+ ND2+ W+ A- N- C- Y- COX1+ S2- D+ COX2+ K+ ATP8+ ATP6+ COX3+ G+ ND3+ R+ ND4L+ ND4+ H+ S1+ L1+ ND5+ ND6- E- CYTB+ T+ P- cr+ OH+
+#header	start	stop	score	evalue	AC	AA	model	strand
+msa_consensus_mitochondrion	1	73	56.35	3.723E-11	GAA	F	Metazoa_F.cm	+
+msa_consensus_mitochondrion	74	1022	672.2	5.5e-174	complete	rrnS	12S_rRNA.cm	+
+msa_consensus_mitochondrion	1023	1092	56.44	1.156E-10	UAC	V	Metazoa_V.cm	+
+msa_consensus_mitochondrion	1087	2609	1124.2	4.5e-288	complete	rrnL	16S_rRNA.cm	+
+msa_consensus_mitochondrion	2612	2686	46.04	1.907E-8	UAA	L2	Metazoa_L2.cm	+
+msa_consensus_mitochondrion	2687	3649	382	2.19e-120	.	ND1	nad1.fas	+
+msa_consensus_mitochondrion	3655	3723	70.3	4.918E-14	GAU	I	Metazoa_I.cm	+
+msa_consensus_mitochondrion	3723	3793	50.45	1.806E-9	UUG	Q	Metazoa_Q.cm	-
+msa_consensus_mitochondrion	3793	3861	47.45	2.318E-8	CAU	M	Metazoa_M.cm	+
+msa_consensus_mitochondrion	3892	4818	288	1.46e-87	.	ND2	nad2.fas	+
+msa_consensus_mitochondrion	4898	4966	66.54	3.319E-13	UCA	W	Metazoa_W.cm	+
+msa_consensus_mitochondrion	4966	5034	46.32	2.928E-8	UGC	A	Metazoa_A.cm	-
+msa_consensus_mitochondrion	5035	5107	49.45	2.103E-9	GUU	N	Metazoa_N.cm	-
+msa_consensus_mitochondrion	5126	5190	46.87	4.848E-9	GCA	C	Metazoa_C.cm	-
+msa_consensus_mitochondrion	5197	5263	51.27	4.133E-9	GUA	Y	Metazoa_Y.cm	-
+msa_consensus_mitochondrion	5265	6806	750	0.0	.	COX1	cox1.fas	+
+msa_consensus_mitochondrion	6807	6877	55.56	3.184E-10	UGA	S2	Metazoa_S2.cm	-
+msa_consensus_mitochondrion	6881	6948	51.68	6.621E-10	GUC	D	Metazoa_D.cm	+
+msa_consensus_mitochondrion	6950	7612	337	2.35e-106	.	COX2	cox2.fas	+
+msa_consensus_mitochondrion	7638	7703	59.5	1.336E-10	UUU	K	Metazoa_K.cm	+
+msa_consensus_mitochondrion	7704	7790	36.2	4.61e-04	.	ATP8	atp8.fas	+
+msa_consensus_mitochondrion	7856	8536	197	9.19e-58	.	ATP6	atp6.fas	+
+msa_consensus_mitochondrion	8539	9300	390	1.47e-124	.	COX3	cox3.fas	+
+msa_consensus_mitochondrion	9323	9392	64.43	4.585E-12	UCC	G	Metazoa_G.cm	+
+msa_consensus_mitochondrion	9456	9644	79.7	2.33e-18	.	ND3	nad3.fas	+
+msa_consensus_mitochondrion	9739	9805	47.38	3.773E-8	UCG	R	Metazoa_R.cm	+
+msa_consensus_mitochondrion	9857	10099	89.0	6.97e-22	.	ND4L	nad4l.fas	+
+msa_consensus_mitochondrion	10147	11397	497	2.89e-158	.	ND4	nad4.fas	+
+msa_consensus_mitochondrion	11477	11545	52.88	8.995E-10	GUG	H	Metazoa_H.cm	+
+msa_consensus_mitochondrion	11546	11611	51.57	1.576E-8	GCU	S1	Metazoa_S1.cm	+
+msa_consensus_mitochondrion	11611	11683	63.58	1.504E-13	UAG	L1	Metazoa_L1.cm	+
+msa_consensus_mitochondrion	11781	13442	684	0.0	.	ND5	nad5.fas	+
+msa_consensus_mitochondrion	13588	13968	127	2.90e-34	.	ND6	nad6.fas	-
+msa_consensus_mitochondrion	14020	14087	54.59	2.082E-10	UUC	E	Metazoa_E.cm	-
+msa_consensus_mitochondrion	14099	15232	518	4.25e-167	.	CYTB	cob.fas	+
+msa_consensus_mitochondrion	15240	15308	50.23	2.638E-9	UGU	T	Metazoa_T.cm	+
+msa_consensus_mitochondrion	15309	15376	64.59	4.259E-12	UGG	P	Metazoa_P.cm	-
+msa_consensus_mitochondrion	15377	16821	.	.	.	cr	Control Region	+
+msa_consensus_mitochondrion	15389	15473	170	.	.	repeat	Repeat Region	+	1.9 copies 44 bp consensus: CTTACTCTCACCTGGCTCTGCCACTCAAGGGGTAAATTGGGCTT
+msa_consensus_mitochondrion     15836   16272   239     9.56e-62        .       OH      OH.fas  +
+msa_consensus_mitochondrion	16303	16365	117	.	.	repeat	Repeat Region	+	15.8 copies 4 bp consensus: CAAA
+msa_consensus_mitochondrion	16368	16580	426	.	.	repeat	Repeat Region	+	1.8 copies 118 bp consensus: GTAAGCACGCGTAAACGCCTGCGCCTACACACGCATACAAACACATGTTCACACACGCTTGTAAGCACGCGTAAACGCCTGCGCCTACACACGCATACAAACATGTTCACACACGCTT
