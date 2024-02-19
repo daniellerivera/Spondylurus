@@ -1,0 +1,43 @@
+##gff-version 3
+SponNit_mito	mitfi	tRNA	1	74	1.842E-12	+	.	symbol=F;anticodon=GAA;model=Metazoa_F.cm;distance_from_last=1
+SponNit_mito	cmsearch	rRNA	75	1024	1.4e-174	+	.	symbol=rrnS;type=complete;model=12S_rRNA.cm;distance_from_last=1
+SponNit_mito	mitfi	tRNA	1025	1094	1.168E-10	+	.	symbol=V;anticodon=UAC;model=Metazoa_V.cm;distance_from_last=1
+SponNit_mito	cmsearch	rRNA	1097	2614	3.9e-287	+	.	symbol=rrnL;type=complete;model=16S_rRNA.cm;distance_from_last=3
+SponNit_mito	mitfi	tRNA	2617	2691	1.927E-8	+	.	symbol=L2;anticodon=UAA;model=Metazoa_L2.cm;distance_from_last=3
+SponNit_mito	blastn	gene	2692	3654	3.59e-138	+	.	symbol=ND1;model=nad1.fas;distance_from_last=1
+SponNit_mito	mitfi	tRNA	3660	3727	9.177E-14	+	.	symbol=I;anticodon=GAU;model=Metazoa_I.cm;distance_from_last=6
+SponNit_mito	mitfi	tRNA	3727	3797	1.561E-9	-	.	symbol=Q;anticodon=UUG;model=Metazoa_Q.cm;distance_from_last=0
+SponNit_mito	mitfi	tRNA	3797	3865	2.343E-8	+	.	symbol=M;anticodon=CAU;model=Metazoa_M.cm;distance_from_last=0
+SponNit_mito	blastn	gene	3896	4822	2.65e-79	+	.	symbol=ND2;model=nad2.fas;distance_from_last=31
+SponNit_mito	mitfi	tRNA	4902	4970	1.684E-13	+	.	symbol=W;anticodon=UCA;model=Metazoa_W.cm;distance_from_last=80
+SponNit_mito	mitfi	tRNA	4970	5038	5.211E-9	-	.	symbol=A;anticodon=UGC;model=Metazoa_A.cm;distance_from_last=0
+SponNit_mito	mitfi	tRNA	5039	5111	2.107E-9	-	.	symbol=N;anticodon=GUU;model=Metazoa_N.cm;distance_from_last=1
+SponNit_mito	mitfi	tRNA	5130	5193	3.321E-9	-	.	symbol=C;anticodon=GCA;model=Metazoa_C.cm;distance_from_last=19
+SponNit_mito	mitfi	tRNA	5200	5266	3.801E-9	-	.	symbol=Y;anticodon=GUA;model=Metazoa_Y.cm;distance_from_last=7
+SponNit_mito	blastn	gene	5268	6809	0.0	+	.	symbol=COX1;model=cox1.fas;distance_from_last=2
+SponNit_mito	mitfi	tRNA	6810	6880	6.302E-10	-	.	symbol=S2;anticodon=UGA;model=Metazoa_S2.cm;distance_from_last=1
+SponNit_mito	mitfi	tRNA	6884	6951	2.483E-9	+	.	symbol=D;anticodon=GUC;model=Metazoa_D.cm;distance_from_last=4
+SponNit_mito	blastn	gene	6953	7615	8.11e-107	+	.	symbol=COX2;model=cox2.fas;distance_from_last=2
+SponNit_mito	mitfi	tRNA	7641	7706	2.322E-10	+	.	symbol=K;anticodon=UUU;model=Metazoa_K.cm;distance_from_last=26
+SponNit_mito	blastn	gene	7707	7793	6.77e-04	+	.	symbol=ATP8;model=atp8.fas;distance_from_last=1
+SponNit_mito	blastn	gene	7859	8539	1.59e-47	+	.	symbol=ATP6;model=atp6.fas;distance_from_last=66
+SponNit_mito	blastn	gene	8542	9303	4.48e-126	+	.	symbol=COX3;model=cox3.fas;distance_from_last=3
+SponNit_mito	mitfi	tRNA	9326	9395	6.221E-12	+	.	symbol=G;anticodon=UCC;model=Metazoa_G.cm;distance_from_last=23
+SponNit_mito	blastn	gene	9459	9740	1.65e-22	+	.	symbol=ND3;model=nad3.fas;distance_from_last=64
+SponNit_mito	mitfi	tRNA	9742	9809	2.099E-7	+	.	symbol=R;anticodon=UCG;model=Metazoa_R.cm;distance_from_last=2
+SponNit_mito	blastn	gene	9849	10091	4.48e-20	+	.	symbol=ND4L;model=nad4l.fas;distance_from_last=40
+SponNit_mito	blastn	gene	10151	11401	1.23e-152	+	.	symbol=ND4;model=nad4.fas;distance_from_last=60
+SponNit_mito	mitfi	tRNA	11481	11549	8.844E-10	+	.	symbol=H;anticodon=GUG;model=Metazoa_H.cm;distance_from_last=80
+SponNit_mito	mitfi	tRNA	11550	11615	1.771E-7	+	.	symbol=S1;anticodon=GCU;model=Metazoa_S1.cm;distance_from_last=1
+SponNit_mito	mitfi	tRNA	11615	11687	1.522E-13	+	.	symbol=L1;anticodon=UAG;model=Metazoa_L1.cm;distance_from_last=0
+SponNit_mito	blastn	gene	11773	13452	0.0	+	.	symbol=ND5;model=nad5.fas;distance_from_last=86
+SponNit_mito	blastn	gene	13607	13972	9.03e-31	-	.	symbol=ND6;model=nad6.fas;distance_from_last=155
+SponNit_mito	mitfi	tRNA	14024	14091	4.078E-10	-	.	symbol=E;anticodon=UUC;model=Metazoa_E.cm;distance_from_last=52
+SponNit_mito	blastn	gene	14103	15236	1.67e-173	+	.	symbol=CYTB;model=cob.fas;distance_from_last=12
+SponNit_mito	mitfi	tRNA	15244	15312	1.013E-9	+	.	symbol=T;anticodon=UGU;model=Metazoa_T.cm;distance_from_last=8
+SponNit_mito	mitfi	tRNA	15313	15380	5.408E-12	-	.	symbol=P;anticodon=UGG;model=Metazoa_P.cm;distance_from_last=1
+SponNit_mito	hifimitie	mitochondrial_control_region	15381	16990	.	+	.	symbol=cr;type=Control Region;distance_from_last=1
+SponNit_mito	trf	repeat_region	15399	15568	.	+	.	symbol=repeat;type=Repeat Region;consensus=CCCCATCTTATTTACACCTGGCTCTGCCACTCAAAAGGGCACCC;bp=44;copies=3.9
+SponNit_mito 	blastn	rep_origin	15940	16376	4.49e-60	+	.	symbol=OH;type=.;model=OH.fas;distance_from_last=372
+SponNit_mito	trf	repeat_region	16407	16471	.	+	.	symbol=repeat;type=Repeat Region;consensus=CAAA;bp=4;copies=16.2
+SponNit_mito	trf	repeat_region	16472	16742	.	+	.	symbol=repeat;type=Repeat Region;consensus=GTAAGCACGCGTAAACGCCTACGCCTACGCATACACACAAACACACGTTCACATACGTTT;bp=60;copies=4.5
