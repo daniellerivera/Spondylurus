@@ -10,7 +10,7 @@ def import_data(file_path):
     
 # Specify your input files
 genome_file = "SponNit_1.0.fasta"
-gff_file_path = "Snitidus.gff"
+gff_file_path = "SponNit_Candidate_anno.gff"
 scaflens_file_path = "SponNit_1.0.scaflens"
 repeatmasker_gff_path = "Snitidus_v0.9.fasta.repeats_out.gff"
 
@@ -19,7 +19,7 @@ gc_output_file = "gc_content_binned_with_chromosome.txt"
 variants_output_path = "variants_extracted_from_braker.csv"
 chromosomes_output_path = "chromosomes.csv"
 repeats_output_path = "repeats_extracted_from_repeatmasker.csv"
-'''
+
 # Modify files with Chromosome names
 chr_rename = "_Sni"
 
@@ -38,7 +38,7 @@ for file_path in files_to_modify:
         print(f"File {file_path} not found.")
 
 print("Chromosome names modified successfully in all specified files.")
-'''
+
 # Read scaflens file
 scaflens_data = pd.read_csv(scaflens_file_path, sep='\t', header=None)
 scaflens_data.columns = ["Chromosome", "End", "Size", "Percentage", "Order", "Details", "Telomeres"]
@@ -50,10 +50,7 @@ chromosomes_data["Start"] = 1
 # Write chromosomes to a CSV file
 chromosomes_data[["Chromosome", "Start", "End"]].to_csv(chromosomes_output_path, index=False)
 
-
-
-
-            
+        
 def create_bins(chromosome_sizes, bin_size_mb=20):
     bin_edges = {}
 
@@ -81,7 +78,7 @@ def bin_gc_content(chromosome_name, reference_genome, gc_bin_size):
     gc_content_values = []
     genome_length = len(reference_genome)
 
-    for start in range(0, genome_length, gc_bin_size):
+    for start in range(1, genome_length, gc_bin_size):
         end = min(start + gc_bin_size, genome_length)
         window_sequence = reference_genome[start:end]
         gc_content = calculate_gc_content(window_sequence)
@@ -198,7 +195,8 @@ chromosome_sizes = {row["Chromosome"]: (1, row["End"]) for _, row in chromosomes
 bin_size_mb = 10  # Adjust as needed
 bin_edges = create_bins(chromosome_sizes, bin_size_mb)
 
-# Create an empty DataFrame to store min and max values for each variant
+# Initialize an empty list to store DataFrames
+variant_min_max_data_list = []
 variant_min_max_data = pd.DataFrame(columns=["Variant", "Min", "Max"])
 
 # Count variants in bins for each chromosome
@@ -220,19 +218,23 @@ for chromosome, edges in bin_edges.items():
 
     # Append the result for the current chromosome to the accumulated DataFrame
     all_results_data = pd.concat([all_results_data, result_data], ignore_index=True)
-	
-	# Update the min and max values for each variant
+
+    # Update the min and max values for each variant
     for feature in bin_counts.keys():
-    	if feature not in variant_min_max_data["Variant"].values:
-    	    # If the variant is not in the DataFrame, add a new row
-    	    variant_min_max_data = variant_min_max_data.append({"Variant": feature, "Min": result_data[feature].min(), "Max": result_data[feature].max()}, ignore_index=True)
-    	else:
-    	    # If the variant is already in the DataFrame, update min and max values
-    	    variant_min_max_data.loc[variant_min_max_data["Variant"] == feature, ["Min", "Max"]] = [
-    	        min(variant_min_max_data.loc[variant_min_max_data["Variant"] == feature, "Min"].min(), result_data[feature].min()),
-    	        max(variant_min_max_data.loc[variant_min_max_data["Variant"] == feature, "Max"].max(), result_data[feature].max())
-    	    ]
-        
+        if feature not in variant_min_max_data["Variant"].values:
+            # If the variant is not in the DataFrame, create a new DataFrame and append it to the list
+            new_row = pd.DataFrame({"Variant": [feature], "Min": [result_data[feature].min()], "Max": [result_data[feature].max()]})
+            variant_min_max_data_list.append(new_row)
+        else:
+            # If the variant is already in the DataFrame, update min and max values
+            min_val = min(variant_min_max_data.loc[variant_min_max_data["Variant"] == feature, "Min"].min(), result_data[feature].min())
+            max_val = max(variant_min_max_data.loc[variant_min_max_data["Variant"] == feature, "Max"].max(), result_data[feature].max())
+            variant_min_max_data.loc[variant_min_max_data["Variant"] == feature, ["Min", "Max"]] = min_val, max_val
+
+# Concatenate the new rows (if any) to the existing DataFrame
+if variant_min_max_data_list:
+    variant_min_max_data = pd.concat(variant_min_max_data_list, ignore_index=True)
+ 
 # Reorder columns
 all_results_data = all_results_data[["Chromosome", "Start", "End"] + list(bin_counts.keys())]
 
@@ -314,4 +316,3 @@ merged_normalized_output_path = "merged_normalized_variant_counts.csv"
 merged_normalized_data.to_csv(merged_normalized_output_path, index=False)
 
 print(f"Merged normalized variant counts saved to {merged_normalized_output_path}")
-
