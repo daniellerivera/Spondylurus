@@ -1,0 +1,45 @@
+# F rrnS V rrnL L2 ND1 I Q M ND2 W A N C Y COX1 S2 D COX2 K ATP8 ATP6 COX3 G ND3 R ND4L ND4 H S1 L1 ND5 ND6 E CYTB T P cr
+# F+ rrnS+ V+ rrnL+ L2+ ND1+ I+ Q- M+ ND2+ W+ A- N- C- Y- COX1+ S2- D+ COX2+ K+ ATP8+ ATP6+ COX3+ G+ ND3+ R+ ND4L+ ND4+ H+ S1+ L1+ ND5+ ND6- E- CYTB+ T+ P- cr+
+#header	start	stop	score	evalue	AC	AA	model	strand
+Snitidus_mito	1	74	62.77	1.842E-12	GAA	F	Metazoa_F.cm	+
+Snitidus_mito	75	1024	674.5	1.4e-174	complete	rrnS	12S_rRNA.cm	+
+Snitidus_mito	1025	1094	56.44	1.168E-10	UAC	V	Metazoa_V.cm	+
+Snitidus_mito	1097	2614	1120.6	3.9e-287	complete	rrnL	16S_rRNA.cm	+
+Snitidus_mito	2617	2691	46.04	1.927E-8	UAA	L2	Metazoa_L2.cm	+
+Snitidus_mito	2692	3654	432	3.59e-138	.	ND1	nad1.fas	+
+Snitidus_mito	3660	3727	69.01	9.177E-14	GAU	I	Metazoa_I.cm	+
+Snitidus_mito	3727	3797	50.8	1.561E-9	UUG	Q	Metazoa_Q.cm	-
+Snitidus_mito	3797	3865	47.45	2.343E-8	CAU	M	Metazoa_M.cm	+
+Snitidus_mito	3896	4822	265	2.65e-79	.	ND2	nad2.fas	+
+Snitidus_mito	4902	4970	67.98	1.684E-13	UCA	W	Metazoa_W.cm	+
+Snitidus_mito	4970	5038	50.33	5.211E-9	UGC	A	Metazoa_A.cm	-
+Snitidus_mito	5039	5111	49.47	2.107E-9	GUU	N	Metazoa_N.cm	-
+Snitidus_mito	5130	5193	47.7	3.321E-9	GCA	C	Metazoa_C.cm	-
+Snitidus_mito	5200	5266	51.49	3.801E-9	GUA	Y	Metazoa_Y.cm	-
+Snitidus_mito	5268	6809	739	0.0	.	COX1	cox1.fas	+
+Snitidus_mito	6810	6880	54.04	6.302E-10	UGA	S2	Metazoa_S2.cm	-
+Snitidus_mito	6884	6951	48.83	2.483E-9	GUC	D	Metazoa_D.cm	+
+Snitidus_mito	6953	7615	338	8.11e-107	.	COX2	cox2.fas	+
+Snitidus_mito	7641	7706	58.22	2.322E-10	UUU	K	Metazoa_K.cm	+
+Snitidus_mito	7707	7793	35.8	6.77e-04	.	ATP8	atp8.fas	+
+Snitidus_mito	7859	8539	168	1.59e-47	.	ATP6	atp6.fas	+
+Snitidus_mito	8542	9303	395	4.48e-126	.	COX3	cox3.fas	+
+Snitidus_mito	9326	9395	63.77	6.221E-12	UCC	G	Metazoa_G.cm	+
+Snitidus_mito	9459	9740	91.7	1.65e-22	.	ND3	nad3.fas	+
+Snitidus_mito	9742	9809	43.29	2.099E-7	UCG	R	Metazoa_R.cm	+
+Snitidus_mito	9849	10091	84.0	4.48e-20	.	ND4L	nad4l.fas	+
+Snitidus_mito	10151	11401	481	1.23e-152	.	ND4	nad4.fas	+
+Snitidus_mito	11481	11549	52.94	8.844E-10	GUG	H	Metazoa_H.cm	+
+Snitidus_mito	11550	11615	45.39	1.771E-7	GCU	S1	Metazoa_S1.cm	+
+Snitidus_mito	11615	11687	63.58	1.522E-13	UAG	L1	Metazoa_L1.cm	+
+Snitidus_mito	11773	13452	695	0.0	.	ND5	nad5.fas	+
+Snitidus_mito	13607	13972	117	9.03e-31	.	ND6	nad6.fas	-
+Snitidus_mito	14024	14091	53.13	4.078E-10	UUC	E	Metazoa_E.cm	-
+Snitidus_mito	14103	15236	537	1.67e-173	.	CYTB	cob.fas	+
+Snitidus_mito	15244	15312	52.4	1.013E-9	UGU	T	Metazoa_T.cm	+
+Snitidus_mito	15313	15380	64.07	5.408E-12	UGG	P	Metazoa_P.cm	-
+Snitidus_mito	15381	16990	.	.	.	cr	Control Region	+
+Snitidus_mito	15399	15568	340	.	.	repeat	Repeat Region	+	3.9 copies 44 bp consensus: CCCCATCTTATTTACACCTGGCTCTGCCACTCAAAAGGGCACCC
+Snitidus_mito 	15940	16376	233	4.49e-60	.	OH	OH.fas	+
+Snitidus_mito	16407	16471	112	.	.	repeat	Repeat Region	+	16.2 copies 4 bp consensus: CAAA
+Snitidus_mito	16472	16742	524	.	.	repeat	Repeat Region	+	4.5 copies 60 bp consensus: GTAAGCACGCGTAAACGCCTACGCCTACGCATACACACAAACACACGTTCACATACGTTT
