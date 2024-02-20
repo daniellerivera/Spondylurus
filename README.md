@@ -5,4 +5,8 @@ I have included both bash and python scripts I used, as well as the files I used
 
 Additional genomic output files are included for each species as well.
 
+This data was used in the following publications:
+Rivera D, Bell RC, Arocho-Hernández N, Hostetter NJ, Collazo JA. 2024. Resolving taxonomic uncertainty in Caribbean skink species. U.S. Fish and Wildlife Service, Southeast Region. Final Report for Research Work Order 239.
+
+Rivera D, Henderson JB, Lam AW, Hostetter NJ, Collazo JA, Bell RC. 2024. High-quality, chromosome-level reference genomes of the viviparous Caribbean skinks Spondylurus nitidus and S. culebrae.
 
