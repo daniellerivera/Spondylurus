@@ -1,0 +1,49 @@
+Mon 05-Feb-2024 11:06:30 AM: Start functional annotation analysis
+Mon 05-Feb-2024 11:06:30 AM: Created ipr directory for interproscan results
+Mon 05-Feb-2024 11:06:30 AM: running interproscan
+Mon 05-Feb-2024 04:08:59 PM: pulling the Dbxref info from ipr/interproscan.tsv and storing in ipr/interproscan.anno
+Mon 05-Feb-2024 04:09:02 PM: Created blasts directory for blastn, blastp and diamond results
+Mon 05-Feb-2024 04:09:02 PM: blastn nt database
+Mon 05-Feb-2024 05:20:11 PM: blasts/nt_blastn.tsv 22244 queries found in 1h11m08s
+
+Mon 05-Feb-2024 05:20:33 PM: create blasts/categorized_nt_blastn.tsv
+Mon 05-Feb-2024 05:20:33 PM: eggNOG analysis: eggnog.sh -m diamond --sensmode more-sensitive -i proteins.faa -o eggnog/cogs --dbmem --seed_ortholog_evalue 0.000001 --cpu 48
+Mon 05-Feb-2024 05:31:00 PM: blastp SwissProt
+Mon 05-Feb-2024 06:08:16 PM: blasts/uniprot_sprot.blastp.tsv 22795 queries found in 37m15s
+
+Mon 05-Feb-2024 06:08:16 PM: diamond blastp TrEMBL
+Mon 05-Feb-2024 08:49:39 PM: blasts/uniprot_trembl.dmnd.more-sensitive_blastp.tsv 23359 queries found in 2h41m23s
+
+Mon 05-Feb-2024 08:49:40 PM: diamond blastp orthodb_vertebrates
+Mon 05-Feb-2024 09:05:25 PM: blasts/orthodb_verts.blastp.tsv 23376 queries found in 15m44s
+
+Mon 05-Feb-2024 09:05:25 PM: diamond blastp nr
+Tue 06-Feb-2024 06:29:13 AM: blasts/nr.dmnd.more-sensitive_blastp.tsv 23418 queries found in 9h23m47s
+
+Tue 06-Feb-2024 06:29:13 AM: running make_gene_model_tsv_and_anno_gff.sh with nt SwissProt TrEMBL OrthoDB InterProscan tsvs
+Tue 06-Feb-2024 06:29:13 AM:    make_gene_model_tsv_and_anno_gff.sh blasts/nt_blastn.tsv blasts/uniprot_sprot.blastp.tsv blasts/uniprot_trembl.dmnd.more-sensitive_blastp.tsv blasts/orthodb_verts.blastp.tsv ipr/interproscan.anno
+
+Creating [0;34mCandidate_anno.gff[0m from gene_model_scores.tsv and annot.gff. Nested genes and mRNAs without a start and a stop codon will be removed.
+39 mRNAs removed. Listed in mrnas_removed_too_small_or_missing_stop_or_start_codon.txt
+115 nested genes removed. Listed in genes_removed_fully_nested_in_other_gene.txt
+making versions of proteins.faa and codingseq.fna files with descriptions added
+
+Candidate_anno.gff basic gene stats written to [0;34mCandidate_anno.basic_gff_stats.txt[0m
+
+Creating [0;34mProtDom_gene_models.gff[0m from Candidate_anno.gff. Removing gene models that do not have InterproScan hits.
+gene model mRNAs not in ProtDom_gene_models.gff are excluded, listed in [1;30mexcluded_fasta_recs.txt[0m
+
+ProtDom_gene_models.gff basic gene stats written to [0;34mProtDom_gene_models.basic_gff_stats.txt[0m
+
+
+Standard_gene_models.gff basic gene stats written to [0;34mStandard_gene_models.basic_gff_stats.txt[0m
+
+Cleaning gene descriptions in Candidate_anno.gff based on Standard model gff
+Updating Candidate_anno.gff stats
+
+[1;32mdone[0m.
+Tue 06-Feb-2024 06:30:49 AM: ipr_distributions.txt created from mRNA lines in Candidate_anno.gff
+Tue 06-Feb-2024 06:30:49 AM: species_tally.txt was not created
+
+Tue 06-Feb-2024 06:30:49 AM: End of functional annotation run. 19h24m19s
+

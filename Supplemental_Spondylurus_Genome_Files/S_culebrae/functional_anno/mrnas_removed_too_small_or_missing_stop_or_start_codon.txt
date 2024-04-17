@@ -1,0 +1,39 @@
+Chr1_Scu	GeneMark.hmm3	mRNA	119212117	119213961	.	-	.	ID=g3901.t1;Parent=g3901;exons=2;cds_len=33;start_codon=1;stop_codon=1;Alias=g3901.t1
+Chr1_Scu	GeneMark.hmm3	mRNA	146797032	146797109	.	-	.	ID=g4037.t1;Parent=g4037;exons=2;cds_len=42;start_codon=1;stop_codon=1;Alias=g4037.t1
+Chr1_Scu	GeneMark.hmm3	mRNA	186250017	186252311	.	-	.	ID=g4338.t1;Parent=g4338;exons=2;cds_len=36;start_codon=1;stop_codon=1;Alias=g4338.t1
+Chr1_Scu	GeneMark.hmm3	mRNA	251742770	251822655	.	+	.	ID=g4916.t3;Parent=g4916;exons=37;cds_len=4453;start_codon=1;Alias=g4916.t3;gene=Abcc8;description=Similar to ATP-binding cassette sub-family C member 8 isoform X1  [Rhineura floridana];Dbxref=CDD:cd18591,CDD:cd18602,FunFam:G3DSA:1.20.1560.10:FF:000005,FunFam:G3DSA:1.20.1560.10:FF:000006,FunFam:G3DSA:3.40.50.300:FF:000394,FunFam:G3DSA:3.40.50.300:FF:003228,InterPro:IPR000388,InterPro:IPR000844,InterPro:IPR003439,InterPro:IPR003593,InterPro:IPR011527,InterPro:IPR017871,InterPro:IPR027417,InterPro:IPR036640,PANTHER:PTHR24223,PRINTS:PR01092,PRINTS:PR01093,PFAM:PF00005,PFAM:PF00664,ProSitePatterns:PS00211,ProSiteProfiles:PS50893,ProSiteProfiles:PS50929,SMART:SM00382,SUPERFAMILY:SSF52540,SUPERFAMILY:SSF90123
+Chr1_Scu	GeneMark.hmm3	mRNA	260233383	260233987	.	+	.	ID=g4984.t1;Parent=g4984;exons=2;cds_len=48;start_codon=1;stop_codon=1;Alias=g4984.t1;gene=Wt1;description=Similar to WT1 transcription factor (WT1)%2C transcript variant X6%2C mRNA [Euleptes europaea]
+Chr1_Scu	GeneMark.hmm3	mRNA	270558888	270559329	.	+	.	ID=g5048.t1;Parent=g5048;exons=2;cds_len=57;start_codon=1;stop_codon=1;Alias=g5048.t1
+Chr2_Scu	GeneMark.hmm3	mRNA	13932677	13932788	.	-	.	ID=g5420.t3;Parent=g5420;exons=1;cds_len=112;start_codon=1;Alias=g5420.t3;description=Similar to myotubularin-related protein 12 isoform X1  [Hemicordylus capensis]
+Chr2_Scu	GeneMark.hmm3	mRNA	38804905	38806735	.	-	.	ID=g5639.t1;Parent=g5639;exons=2;cds_len=72;start_codon=1;stop_codon=1;Alias=g5639.t1
+Chr2_Scu	GeneMark.hmm3	mRNA	96007521	96007826	.	-	.	ID=g6029.t1;Parent=g6029;exons=2;cds_len=51;start_codon=1;stop_codon=1;Alias=g6029.t1
+Chr2_Scu	GeneMark.hmm3	mRNA	110037100	110039853	.	+	.	ID=g6293.t1;Parent=g6293;exons=2;cds_len=75;start_codon=1;stop_codon=1;Alias=g6293.t1
+Chr2_Scu	GeneMark.hmm3	mRNA	163610839	163612981	.	-	.	ID=g7062.t1;Parent=g7062;exons=2;cds_len=30;start_codon=1;stop_codon=1;Alias=g7062.t1
+Chr2_Scu	GeneMark.hmm3	mRNA	197262885	197263022	.	-	.	ID=g7368.t1;Parent=g7368;exons=2;cds_len=45;start_codon=1;stop_codon=1;Alias=g7368.t1
+Chr2_Scu	GeneMark.hmm3	mRNA	231158670	231158780	.	-	.	ID=g7611.t1;Parent=g7611;exons=2;cds_len=45;start_codon=1;stop_codon=1;Alias=g7611.t1
+Chr2_Scu	GeneMark.hmm3	mRNA	238577313	238578316	.	+	.	ID=g7736.t1;Parent=g7736;exons=2;cds_len=72;start_codon=1;stop_codon=1;Alias=g7736.t1
+Chr2_Scu	GeneMark.hmm3	mRNA	248374538	248376982	.	-	.	ID=g7939.t1;Parent=g7939;exons=2;cds_len=69;start_codon=1;stop_codon=1;Alias=g7939.t1
+Chr3_Scu	GeneMark.hmm3	mRNA	190940668	190942403	.	-	.	ID=g9591.t1;Parent=g9591;exons=2;cds_len=63;start_codon=1;stop_codon=1;Alias=g9591.t1
+Chr4_Scu	GeneMark.hmm3	mRNA	128097232	128104637	.	-	.	ID=g10858.t1;Parent=g10858;exons=2;cds_len=9;start_codon=1;stop_codon=1;Alias=g10858.t1
+Chr4_Scu	GeneMark.hmm3	mRNA	136051423	136057472	.	-	.	ID=g10910.t1;Parent=g10910;exons=2;cds_len=42;start_codon=1;stop_codon=1;Alias=g10910.t1;gene=Raver2;description=Similar to ribonucleoprotein%2C PTB binding 2 (RAVER2)%2C mRNA [Alligator sinensis]
+Chr4_Scu	GeneMark.hmm3	mRNA	157381372	157381847	.	-	.	ID=g11177.t1;Parent=g11177;exons=2;cds_len=27;start_codon=1;stop_codon=1;Alias=g11177.t1
+Chr4_Scu	GeneMark.hmm3	mRNA	162389554	162390691	.	+	.	ID=g11250.t1;Parent=g11250;exons=2;cds_len=87;start_codon=1;stop_codon=1;Alias=g11250.t1
+Chr4_Scu	GeneMark.hmm3	mRNA	162611345	162618199	.	-	.	ID=g11251.t1;Parent=g11251;exons=2;cds_len=42;start_codon=1;stop_codon=1;Alias=g11251.t1
+Chr4_Scu	GeneMark.hmm3	mRNA	189125088	189126932	.	-	.	ID=g11520.t1;Parent=g11520;exons=2;cds_len=66;start_codon=1;stop_codon=1;Alias=g11520.t1
+Chr5_Scu	GeneMark.hmm3	mRNA	13071809	13071925	.	+	.	ID=g11846.t1;Parent=g11846;exons=1;cds_len=117;start_codon=1;Alias=g11846.t1
+Chr5_Scu	GeneMark.hmm3	mRNA	21075907	21080318	.	+	.	ID=g11933.t2;Parent=g11933;exons=4;cds_len=561;stop_codon=1;Alias=g11933.t2;gene=Gatad1;description=Similar to GATA zinc finger domain-containing protein 1 [Anolis carolinensis];Dbxref=InterPro:IPR039050,PANTHER:PTHR13340
+Chr5_Scu	GeneMark.hmm3	mRNA	85023002	85024350	.	+	.	ID=g12648.t1;Parent=g12648;exons=2;cds_len=15;start_codon=1;stop_codon=1;Alias=g12648.t1
+Chr5_Scu	GeneMark.hmm3	mRNA	85550683	85551922	.	+	.	ID=g12663.t1;Parent=g12663;exons=2;cds_len=45;start_codon=1;stop_codon=1;Alias=g12663.t1
+Chr6_Scu	GeneMark.hmm3	mRNA	16229788	16230746	.	-	.	ID=g13418.t1;Parent=g13418;exons=2;cds_len=42;start_codon=1;stop_codon=1;Alias=g13418.t1
+Chr7_Scu	GeneMark.hmm3	mRNA	52374041	52374192	.	-	.	ID=g14454.t1;Parent=g14454;exons=2;cds_len=63;start_codon=1;stop_codon=1;Alias=g14454.t1
+Chr7_Scu	GeneMark.hmm3	mRNA	57186463	57187102	.	-	.	ID=g14506.t1;Parent=g14506;exons=2;cds_len=36;start_codon=1;stop_codon=1;Alias=g14506.t1
+Chr8_Scu	GeneMark.hmm3	mRNA	28712071	28712268	.	-	.	ID=g15056.t1;Parent=g15056;exons=2;cds_len=30;start_codon=1;stop_codon=1;Alias=g15056.t1
+Chr8_Scu	GeneMark.hmm3	mRNA	50156123	50160563	.	-	.	ID=g15491.t1;Parent=g15491;exons=2;cds_len=51;start_codon=1;stop_codon=1;Alias=g15491.t1
+Chr9_Scu	GeneMark.hmm3	mRNA	285951	289072	.	-	.	ID=g15588.t1;Parent=g15588;exons=2;cds_len=24;start_codon=1;stop_codon=1;Alias=g15588.t1
+Chr9_Scu	GeneMark.hmm3	mRNA	14349280	14354494	.	+	.	ID=g15777.t1;Parent=g15777;exons=2;cds_len=81;start_codon=1;stop_codon=1;Alias=g15777.t1
+Chr10_Scu	GeneMark.hmm3	mRNA	20292326	20293642	.	-	.	ID=g443.t1;Parent=g443;exons=2;cds_len=39;start_codon=1;stop_codon=1;Alias=g443.t1
+Chr14_Scu	GeneMark.hmm3	mRNA	3093719	3094660	.	+	.	ID=g1736.t1;Parent=g1736;exons=2;cds_len=75;start_codon=1;stop_codon=1;Alias=g1736.t1
+Chr14_Scu	GeneMark.hmm3	mRNA	7700971	7702768	.	-	.	ID=g1870.t1;Parent=g1870;exons=2;cds_len=57;start_codon=1;stop_codon=1;Alias=g1870.t1
+Chr15_Scu	GeneMark.hmm3	mRNA	6810937	6811181	.	+	.	ID=g2209.t1;Parent=g2209;exons=2;cds_len=66;start_codon=1;stop_codon=1;Alias=g2209.t1
+Chr16_Scu	GeneMark.hmm3	mRNA	5021753	5021872	.	-	.	ID=g2597.t1;Parent=g2597;exons=1;cds_len=120;stop_codon=1;Alias=g2597.t1;gene=Mpz;description=Similar to LOW QUALITY PROTEIN: myelin protein P0 [Podarcis muralis]
+Chr16_Scu	GeneMark.hmm3	mRNA	5911966	5912027	.	+	.	ID=g2651.t1;Parent=g2651;exons=2;cds_len=30;start_codon=1;stop_codon=1;Alias=g2651.t1

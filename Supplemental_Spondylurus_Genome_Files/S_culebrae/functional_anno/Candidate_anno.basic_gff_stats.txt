@@ -1,0 +1,37 @@
+19445	Genes
+38.35%	Percentage of Genome
+533620992	Total Gene Length
+1391542637	Assembly Length
+
+24392	mRNA
+32483.50	Mean Length
+987993	Longest
+123	Shortest
+792337631	Total mRNA Length
+
+267703	Exons
+10.98	Mean per mRNA
+169.48	Mean Length
+1860.06	Mean Length per mRNA
+35577	Longest Exon
+1	Shortest Exon
+45370572	Total Exon Length
+
+2236 9.17% Single Exon mRNA
+
+243311	Introns
+9.98	Mean per mRNA
+2992.82	Mean Length
+29853.51	Mean Length per mRNA
+329817	Longest Intron
+20	Shortest Intron
+728186762	Total Intron Length
+
+56.94%	mRNA
+3.26%	Exons
+52.33%	Introns
+1391542637	Assembly Length
+
+18494	Genes with gene names
+23418	mRNA with gene names
+23444	mRNA with gene descriptions

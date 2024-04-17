@@ -1,0 +1,16 @@
+Chr1_Scu	3775
+Chr2_Scu	4075
+Chr3_Scu	2731
+Chr4_Scu	2793
+Chr5_Scu	2320
+Chr6_Scu	989
+Chr7_Scu	1158
+Chr8_Scu	1423
+Chr9_Scu	935
+Chr10_Scu	903
+Chr11_Scu	570
+Chr12_Scu	433
+Chr13_Scu	601
+Chr14_Scu	461
+Chr15_Scu	562
+Chr16_Scu	663
