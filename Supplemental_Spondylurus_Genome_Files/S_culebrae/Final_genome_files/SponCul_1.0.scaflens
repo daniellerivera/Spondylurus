@@ -1,0 +1,20 @@
+Chr1_Scu	297744077	  297,744,077	21.40%	1	B:1459 C:1436 F:6 D:8 d:17	telomeres: TOP BOTTOM
+Chr2_Scu	252310368	  550,054,445	39.53%	2	B:908 C:902 F:2 D:3 d:4   	telomeres: TOP BOTTOM
+Chr3_Scu	207721411	  757,775,856	54.46%	3	B:1043 C:1022 F:7 D:6 d:14	telomeres: BOTTOM
+Chr4_Scu	199135708	  956,911,564	68.77%	4	B:977 C:968 F:2 D:5 d:7   	telomeres: TOP BOTTOM
+Chr5_Scu	101298731	1,058,210,295	76.05%	5	B:423 C:419 F:1 D:3 d:3
+Chr6_Scu	 68222232	1,126,432,527	80.95%	6	B:369 C:366 F:3 D:0 d:0   	telomeres: TOP BOTTOM
+Chr7_Scu	 63591337	1,190,023,864	85.52%	7	B:456 C:452 F:2 D:2 d:2   	telomeres: TOP_near BOTTOM
+Chr8_Scu	 52991970	1,243,015,834	89.33%	8	B:465 C:459 F:2 D:2 d:4   	telomeres: BOTTOM
+Chr9_Scu	 37916473	1,280,932,307	92.05%	9	B:311 C:311 F:0 D:0 d:0   	telomeres: TOP BOTTOM
+Chr10_Scu	 23288486	1,304,220,793	93.72%	10	B:109 C:109 F:0 D:0 d:0   	telomeres: TOP BOTTOM
+Chr11_Scu	 22073887	1,326,294,680	95.31%	11	B:133 C:128 F:0 D:3 d:5   	telomeres: TOP
+Chr12_Scu	 17589339	1,343,884,019	96.58%	12	B:153 C:153 F:0 D:0 d:0   	telomeres: TOP BOTTOM
+Chr13_Scu	 16935811	1,360,819,830	97.79%	13	B:219 C:217 F:2 D:0 d:0   	telomeres: TOP BOTTOM
+Chr14_Scu	 10960436	1,371,780,266	98.58%	14	B:158 C:157 F:0 D:1 d:1   	telomeres: TOP BOTTOM_near
+Chr15_Scu	 10952743	1,382,733,009	99.37%	15	B:189 C:189 F:0 D:0 d:0   	telomeres: TOP BOTTOM
+Chr16_Scu	  8809628	1,391,542,637	100.00%	16	B:27 C:26 F:0 D:1 d:1     	telomeres: TOP BOTTOM
+
+# /home/drivera/Spondylurus_culebrae/hic_scaffold/yahs/run2_scaff_no_ec/Sculebrae_v0.9_cpa1_sauropsida/sauropsida_odb10/full_table_busco_format.tsv
+# C:7338[S:7314,D:24],F:27,M:115,n:7480
+# C:98.1%[S:97.8%,D:0.3%],F:0.4%,M:1.5%,n:7480

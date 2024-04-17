@@ -1,0 +1,43 @@
+##gff-version 3
+Spon_Cul_1.0_complete_mitochondrion	mitfi	tRNA	1	73	3.723E-11	+	.	symbol=F;anticodon=GAA;model=Metazoa_F.cm;distance_from_last=1
+Spon_Cul_1.0_complete_mitochondrion	cmsearch	rRNA	74	1022	5.5e-174	+	.	symbol=rrnS;type=complete;model=12S_rRNA.cm;distance_from_last=1
+Spon_Cul_1.0_complete_mitochondrion	mitfi	tRNA	1023	1092	1.156E-10	+	.	symbol=V;anticodon=UAC;model=Metazoa_V.cm;distance_from_last=1
+Spon_Cul_1.0_complete_mitochondrion	cmsearch	rRNA	1087	2609	4.5e-288	+	.	symbol=rrnL;type=complete;model=16S_rRNA.cm;distance_from_last=-5
+Spon_Cul_1.0_complete_mitochondrion	mitfi	tRNA	2612	2686	1.907E-8	+	.	symbol=L2;anticodon=UAA;model=Metazoa_L2.cm;distance_from_last=3
+Spon_Cul_1.0_complete_mitochondrion	blastn	gene	2687	3649	2.19e-120	+	.	symbol=ND1;model=nad1.fas;distance_from_last=1
+Spon_Cul_1.0_complete_mitochondrion	mitfi	tRNA	3655	3723	4.918E-14	+	.	symbol=I;anticodon=GAU;model=Metazoa_I.cm;distance_from_last=6
+Spon_Cul_1.0_complete_mitochondrion	mitfi	tRNA	3723	3793	1.806E-9	-	.	symbol=Q;anticodon=UUG;model=Metazoa_Q.cm;distance_from_last=0
+Spon_Cul_1.0_complete_mitochondrion	mitfi	tRNA	3793	3861	2.318E-8	+	.	symbol=M;anticodon=CAU;model=Metazoa_M.cm;distance_from_last=0
+Spon_Cul_1.0_complete_mitochondrion	blastn	gene	3892	4818	1.46e-87	+	.	symbol=ND2;model=nad2.fas;distance_from_last=31
+Spon_Cul_1.0_complete_mitochondrion	mitfi	tRNA	4898	4966	3.319E-13	+	.	symbol=W;anticodon=UCA;model=Metazoa_W.cm;distance_from_last=80
+Spon_Cul_1.0_complete_mitochondrion	mitfi	tRNA	4966	5034	2.928E-8	-	.	symbol=A;anticodon=UGC;model=Metazoa_A.cm;distance_from_last=0
+Spon_Cul_1.0_complete_mitochondrion	mitfi	tRNA	5035	5107	2.103E-9	-	.	symbol=N;anticodon=GUU;model=Metazoa_N.cm;distance_from_last=1
+Spon_Cul_1.0_complete_mitochondrion	mitfi	tRNA	5126	5190	4.848E-9	-	.	symbol=C;anticodon=GCA;model=Metazoa_C.cm;distance_from_last=19
+Spon_Cul_1.0_complete_mitochondrion	mitfi	tRNA	5197	5263	4.133E-9	-	.	symbol=Y;anticodon=GUA;model=Metazoa_Y.cm;distance_from_last=7
+Spon_Cul_1.0_complete_mitochondrion	blastn	gene	5265	6806	0.0	+	.	symbol=COX1;model=cox1.fas;distance_from_last=2
+Spon_Cul_1.0_complete_mitochondrion	mitfi	tRNA	6807	6877	3.184E-10	-	.	symbol=S2;anticodon=UGA;model=Metazoa_S2.cm;distance_from_last=1
+Spon_Cul_1.0_complete_mitochondrion	mitfi	tRNA	6881	6948	6.621E-10	+	.	symbol=D;anticodon=GUC;model=Metazoa_D.cm;distance_from_last=4
+Spon_Cul_1.0_complete_mitochondrion	blastn	gene	6950	7612	2.35e-106	+	.	symbol=COX2;model=cox2.fas;distance_from_last=2
+Spon_Cul_1.0_complete_mitochondrion	mitfi	tRNA	7638	7703	1.336E-10	+	.	symbol=K;anticodon=UUU;model=Metazoa_K.cm;distance_from_last=26
+Spon_Cul_1.0_complete_mitochondrion	blastn	gene	7704	7790	4.61e-04	+	.	symbol=ATP8;model=atp8.fas;distance_from_last=1
+Spon_Cul_1.0_complete_mitochondrion	blastn	gene	7856	8536	9.19e-58	+	.	symbol=ATP6;model=atp6.fas;distance_from_last=66
+Spon_Cul_1.0_complete_mitochondrion	blastn	gene	8539	9300	1.47e-124	+	.	symbol=COX3;model=cox3.fas;distance_from_last=3
+Spon_Cul_1.0_complete_mitochondrion	mitfi	tRNA	9323	9392	4.585E-12	+	.	symbol=G;anticodon=UCC;model=Metazoa_G.cm;distance_from_last=23
+Spon_Cul_1.0_complete_mitochondrion	blastn	gene	9456	9644	2.33e-18	+	.	symbol=ND3;model=nad3.fas;distance_from_last=64
+Spon_Cul_1.0_complete_mitochondrion	mitfi	tRNA	9739	9805	3.773E-8	+	.	symbol=R;anticodon=UCG;model=Metazoa_R.cm;distance_from_last=95
+Spon_Cul_1.0_complete_mitochondrion	blastn	gene	9857	10099	6.97e-22	+	.	symbol=ND4L;model=nad4l.fas;distance_from_last=52
+Spon_Cul_1.0_complete_mitochondrion	blastn	gene	10147	11397	2.89e-158	+	.	symbol=ND4;model=nad4.fas;distance_from_last=48
+Spon_Cul_1.0_complete_mitochondrion	mitfi	tRNA	11477	11545	8.995E-10	+	.	symbol=H;anticodon=GUG;model=Metazoa_H.cm;distance_from_last=80
+Spon_Cul_1.0_complete_mitochondrion	mitfi	tRNA	11546	11611	1.576E-8	+	.	symbol=S1;anticodon=GCU;model=Metazoa_S1.cm;distance_from_last=1
+Spon_Cul_1.0_complete_mitochondrion	mitfi	tRNA	11611	11683	1.504E-13	+	.	symbol=L1;anticodon=UAG;model=Metazoa_L1.cm;distance_from_last=0
+Spon_Cul_1.0_complete_mitochondrion	blastn	gene	11781	13442	0.0	+	.	symbol=ND5;model=nad5.fas;distance_from_last=98
+Spon_Cul_1.0_complete_mitochondrion	blastn	gene	13588	13968	2.90e-34	-	.	symbol=ND6;model=nad6.fas;distance_from_last=146
+Spon_Cul_1.0_complete_mitochondrion	mitfi	tRNA	14020	14087	2.082E-10	-	.	symbol=E;anticodon=UUC;model=Metazoa_E.cm;distance_from_last=52
+Spon_Cul_1.0_complete_mitochondrion	blastn	gene	14099	15232	4.25e-167	+	.	symbol=CYTB;model=cob.fas;distance_from_last=12
+Spon_Cul_1.0_complete_mitochondrion	mitfi	tRNA	15240	15308	2.638E-9	+	.	symbol=T;anticodon=UGU;model=Metazoa_T.cm;distance_from_last=8
+Spon_Cul_1.0_complete_mitochondrion	mitfi	tRNA	15309	15376	4.259E-12	-	.	symbol=P;anticodon=UGG;model=Metazoa_P.cm;distance_from_last=1
+Spon_Cul_1.0_complete_mitochondrion	hifimitie	mitochondrial_control_region	15377	16821	.	+	.	symbol=cr;type=Control Region;distance_from_last=1
+Spon_Cul_1.0_complete_mitochondrion	trf	repeat_region	15389	15473	.	+	.	symbol=repeat;type=Repeat Region;consensus=CTTACTCTCACCTGGCTCTGCCACTCAAGGGGTAAATTGGGCTT;bp=44;copies=1.9
+Spon_Cul_1.0_complete_mitochondrion     blastn  rep_origin      15836   16272   9.56e-62        +       .       symbol=OH;type=.;model=OH.fas;distance_from_last=-744
+Spon_Cul_1.0_complete_mitochondrion	trf	repeat_region	16303	16365	.	+	.	symbol=repeat;type=Repeat Region;consensus=CAAA;bp=4;copies=15.8
+Spon_Cul_1.0_complete_mitochondrion	trf	repeat_region	16368	16580	.	+	.	symbol=repeat;type=Repeat Region;consensus=GTAAGCACGCGTAAACGCCTGCGCCTACACACGCATACAAACACATGTTCACACACGCTTGTAAGCACGCGTAAACGCCTGCGCCTACACACGCATACAAACATGTTCACACACGCTT;bp=118;copies=1.8

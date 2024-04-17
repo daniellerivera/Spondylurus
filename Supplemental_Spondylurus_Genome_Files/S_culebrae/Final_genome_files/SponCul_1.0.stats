@@ -1,0 +1,58 @@
+
+---------------- Information for assembly 'SponCul_1.0.fasta' ----------------
+
+
+                                         Number of scaffolds         16
+                                     Total size of scaffolds 1391542637
+                                            Longest scaffold  297744077
+                                           Shortest scaffold    8809628
+                                 Number of scaffolds > 1K nt         16 100.0%
+                                Number of scaffolds > 10K nt         16 100.0%
+                               Number of scaffolds > 100K nt         16 100.0%
+                                 Number of scaffolds > 1M nt         16 100.0%
+                                Number of scaffolds > 10M nt         15  93.8%
+                                          Mean scaffold size   86971415
+                                        Median scaffold size   52991970
+                                         N50 scaffold length  207721411  L50 scaffold count          3
+                                         N60 scaffold length  199135708  L60 scaffold count          4
+                                         N70 scaffold length  101298731  L70 scaffold count          5
+                                         N80 scaffold length   68222232  L80 scaffold count          6
+                                         N90 scaffold length   37916473  L90 scaffold count          9
+                                                 scaffold %A      28.22  number of A         392702177
+                                                 scaffold %C      21.77  number of C         302880009
+                                                 scaffold %G      21.76  number of G         302846116
+                                                 scaffold %T      28.25  number of T         393110835
+                                                 scaffold %N       0.00  number of N              3500
+                                         scaffold %non-ACGTN       0.00
+                             Number of scaffold non-ACGTN nt          0
+
+                Percentage of assembly in scaffolded contigs      80.6%
+              Percentage of assembly in unscaffolded contigs      19.4%
+                      Average number of contigs per scaffold        3.2
+Average length of break (>=10 N) between contigs in scaffold        100
+
+                                           Number of contigs         51
+                              Number of contigs in scaffolds         49
+                          Number of contigs not in scaffolds          2
+                                       Total size of contigs 1391539137
+                                              Longest contig  252310368
+                                             Shortest contig      42727
+                                   Number of contigs > 1K nt         51 100.0%
+                                  Number of contigs > 10K nt         51 100.0%
+                                 Number of contigs > 100K nt         49  96.1%
+                                   Number of contigs > 1M nt         43  84.3%
+                                  Number of contigs > 10M nt         26  51.0%
+                                            Mean contig size   27285081
+                                          Median contig size   10937154
+                                           N50 contig length   85722844  L50 contig count          5
+                                           N60 contig length   61256420  L60 contig count          7
+                                           N70 contig length   43888757  L70 contig count          9
+                                           N80 contig length   26385919  L80 contig count         13
+                                           N90 contig length   15169015  L90 contig count         21
+                                                   contig %A      28.22  number of A         392702177
+                                                   contig %C      21.77  number of C         302880009
+                                                   contig %G      21.76  number of G         302846116
+                                                   contig %T      28.25  number of T         393110835
+                                                   contig %N       0.00  number of N                 0
+                                           contig %non-ACGTN       0.00
+                               Number of contig non-ACGTN nt          0

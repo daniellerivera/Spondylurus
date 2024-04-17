@@ -1,0 +1,59 @@
+==================================================
+file name: Sculebrae_v0.9.fasta     
+sequences:            16
+total length: 1391542637 bp  (1391539137 bp excl N/X-runs)
+GC level:         43.53 %
+bases masked:  625611324 bp ( 44.96 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements       1432157    251952847 bp   18.11 %
+   SINEs:           267224     30221748 bp    2.17 %
+   Penelope:             0            0 bp    0.00 %
+   LINEs:           963555    163669612 bp   11.76 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex     618454     93880861 bp    6.75 %
+     R1/LOA/Jockey    2794       221097 bp    0.02 %
+     R2/R4/NeSL      14477     12494685 bp    0.90 %
+     RTE/Bov-B      276196     46844717 bp    3.37 %
+     L1/CIN4         20083      5762999 bp    0.41 %
+   LTR elements:    201378     58061487 bp    4.17 %
+     BEL/Pao          1601        84316 bp    0.01 %
+     Ty1/Copia       93425     28260260 bp    2.03 %
+     Gypsy/DIRS1     34004      8162502 bp    0.59 %
+       Retroviral    22097      9612900 bp    0.69 %
+
+DNA transposons     1131779    155218670 bp   11.15 %
+   hobo-Activator   908505    126551970 bp    9.09 %
+   Tc1-IS630-Pogo   132282     20588843 bp    1.48 %
+   En-Spm                0            0 bp    0.00 %
+   MULE-MuDR         25037      1673533 bp    0.12 %
+   PiggyBac           2412       245396 bp    0.02 %
+   Tourist/Harbinger 12153      1050567 bp    0.08 %
+   Other (Mirage,       85         3879 bp    0.00 %
+    P-element, Transib)
+
+Rolling-circles       9973      1311861 bp    0.09 %
+
+Unclassified:       1328482    200578566 bp   14.41 %
+
+Total interspersed repeats:   607750083 bp   43.67 %
+
+
+Small RNA:           16993      4197116 bp    0.30 %
+
+Satellites:           7842       859388 bp    0.06 %
+Simple repeats:     241791     10875967 bp    0.78 %
+Low complexity:      19004       860795 bp    0.06 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+RepeatMasker version 4.1.5 , sensitive mode
+                                      
+run with rmblastn version 2.14.0+
+The query was compared to classified sequences in ".../denovo_and_vertebrata_repeats.fa"
+FamDB: 
