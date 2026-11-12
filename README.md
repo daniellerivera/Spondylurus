@@ -11,3 +11,4 @@ Rivera D, Bell RC, Arocho-Hernández N, Hostetter NJ, Collazo JA. 2024. Resolvin
 
 Rivera D, Henderson JB, Lam AW, Hostetter NJ, Collazo JA, Bell RC. 2024. High-quality, chromosome-level reference genomes of the viviparous Caribbean skinks Spondylurus nitidus and S. culebrae.
 
+Rivera D, Arocho-Hernandez N, Zegarra JP, Rivenbark E, Chovanec KR, Reynolds RG, de Queiroz K, Hedges SB, Puente-Rolón AR, Gonzalez-Arocho L, Hostetter NJ, Collazo JA, Bell RC. 2026. Genomic data reveal historical introgression and genetic erosion across an imperiled radiation of Caribbean Spondylurus skinks. Evolutionary Journal of the Linnean Society, 5(1): kzag025. https://doi.org/10.1093/evolinnean/kzag025
